@@ -1,0 +1,38 @@
+:root{
+    --main-color1:#F6CEF5;
+    --main-color2:#E2A9F3;
+    --main-color3:#81DAF5;
+    --main-color4:#4C0B5F;
+}
+* {
+    text-align: center;
+    font-size: 25px;
+}
+body{
+    background-color: var(--main-color1);
+}
+ul{
+    list-style: none;
+}
+.cabecalho_nav{
+    background: var(--main-color2);
+    border:2px solid var(--main-color4);
+    border-radius: 10px;
+}
+li{
+    display: inline;
+    padding: 50px;
+}
+a{
+    text-decoration: none;
+}
+.meio{
+    border: 2px solid var(--main-color4);
+    margin: 100px;
+    border-radius: 10px;
+    display: inline-block;   
+}
+.dance{
+    margin: 100px;
+    padding: 20px;
+}
